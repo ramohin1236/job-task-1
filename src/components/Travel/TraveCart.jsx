@@ -23,7 +23,7 @@ const TraveCart = ({name,img,image,title,category,date}) => {
                          </div>
 
                          <div>
-                             <p className="text-[#FFB700] flex items-center gap-2">Read More <MdKeyboardDoubleArrowRight /> </p>
+                             <p className="text-[#FFB700] flex items-center gap-2 cursor-pointer">Read More <MdKeyboardDoubleArrowRight /> </p>
                          </div>
                  </div>
             </div>

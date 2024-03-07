@@ -7,13 +7,13 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 const Testimonial = () => {
     return (
         <div>
-             <div className=" 2xl:ml-64  mb-32">
+             <div className=" 2xl:ml-64  mb-16">
              <p className="text-[32px] font-semibold ">Testimonials</p>
 
              </div>
             
 
-             <div className="flex justify-center items-center 2xl:w-[1465px] h-[447px]  xl:bg-[#006CE4] 2xl:bg-[#006CE4] 2xl:mx-auto mt-12 ">
+             <div className="flex justify-center items-center 2xl:w-[1465px] h-[447px]  xl:bg-[#006CE4] 2xl:bg-[#006CE4] 2xl:mx-auto mt-20 ">
                          <div className='relative  mr-6 opacity-40 max-sm:hidden max-md:hidden'>
                                <img src={man1} alt="" ></img>
                             </div>
@@ -30,8 +30,8 @@ const Testimonial = () => {
                           </div>
                         
                                              {/* middle */}
-                          <div className='p-16'>
-                            <p className='md:text-[14px] font-medium'>"Unforgettable journeys with John and Sarah! Their travel expertise turned our dreams into reality. Can't wait to explore with them again!"</p>
+                          <div className=''>
+                            <p className=' md:text-[14px] font-medium'>"Unforgettable journeys with John and Sarah! Their travel expertise turned our dreams into reality. Can't wait to explore with them again!"</p>
                             <p className='md:text-[18px] font-semibold mt-6'>Emily</p>
                             <p  className='md:text-[12px]'>Adventure Enthusiast</p>
 
