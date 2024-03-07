@@ -1,5 +1,4 @@
 import AirlinesCart from "./AirlinesCart";
-import img1 from '/public/american.png';
 import img2 from '/public/BBA.png';
 import img3 from '/public/Emirates.png';
 import img4 from '/public/Turkish Airlines.png';
