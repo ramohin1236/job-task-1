@@ -3,6 +3,7 @@ import Featured from "./components/Featured/Featured"
 import Header from "./components/Header/Header"
 import Offer from "./components/Offer/Offer"
 import Testimonial from "./components/Testimonial/Testimonial"
+import Travel from "./components/Travel/Travel"
 
 function App() {
   
@@ -23,6 +24,9 @@ function App() {
           </div>
           <div className=" mb-20">
               <Testimonial/>
+          </div>
+          <div className="2xl:ml-64 mb-20">
+              <Travel/>
           </div>
     </div>
   )
