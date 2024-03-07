@@ -1,3 +1,4 @@
+import Airlines from "./components/Airlines/Airlines"
 import Featured from "./components/Featured/Featured"
 import Header from "./components/Header/Header"
 import Offer from "./components/Offer/Offer"
@@ -13,8 +14,11 @@ function App() {
           <div className="mt-44 2xl:ml-64  mb-20">
               <Featured/>
           </div>
-          <div className=" 2xl:ml-64  mb-44">
+          <div className=" 2xl:ml-64  mb-20">
               <Offer/>
+          </div>
+          <div className=" 2xl:ml-64  mb-20">
+              <Airlines/>
           </div>
     </div>
   )
