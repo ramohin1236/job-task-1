@@ -1,5 +1,6 @@
 import Airlines from "./components/Airlines/Airlines"
 import Featured from "./components/Featured/Featured"
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import NewsLetter from "./components/NewsLetter/NewsLetter"
 import Offer from "./components/Offer/Offer"
@@ -31,6 +32,9 @@ function App() {
           </div>
           <div className="2xl:ml-64 mb-20">
               <NewsLetter/>
+          </div>
+          <div className=" mb-20">
+              <Footer/>
           </div>
     </div>
   )
