@@ -1,0 +1,22 @@
+.nav-container{
+    width: 1440px;
+    height: 84px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+
+.gradient-button{
+    background: linear-gradient(to right, #006CE4 0%, #5ba3f5 100%);
+
+    border: none;
+    color: white;
+    width: 134px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:15.4px;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
