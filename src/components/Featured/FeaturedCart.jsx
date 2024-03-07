@@ -3,7 +3,7 @@
 
 const FeaturedCart = ({image, title}) => {
     return (
-        <div className="w-[360px]  h-[403px] shadow-lg mt-10">
+        <div className="w-[360px]  h-[403px] shadow-lg mt-8">
 
             <div className="w-[340px] h-[372.28px]   ml-[10px] ">
                   <img className='w-[340px] h-[240px] rounded-md object-cover ' src={image} alt="" />

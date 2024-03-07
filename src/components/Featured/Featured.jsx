@@ -7,7 +7,7 @@ import img3 from '/public/Rectangle 18-22.png'
 const Featured = () => {
     return (
         <div>
-            <p className="text-[32px] font-semibold">Featured Destinations</p>
+            <p className="text-[32px] font-semibold  md:mt-[300px] ">Featured Destinations</p>
 
             <div className="grid sm:grid-cols-1 
             md:grid-cols-2

@@ -2,7 +2,9 @@ import { useState } from 'react';
 import './Navbar.css';
 import { ImCross } from "react-icons/im";
 const Navbar = () => {
-   const [isOpen, setIsOpen]=useState(false)
+   
+   
+    const [isOpen, setIsOpen]=useState(false)
      
   
 
@@ -27,7 +29,7 @@ const Navbar = () => {
                
                 </>
               }
-         <div className=" nav-container flex justify-around items-center  max-lg:hidden">
+         <div className=" nav-container flex justify-around items-center   max-lg:hidden max-xl:hidden">
         
              <div>
              <img className='ml-20' src="/public/LOGO.png" alt="" />

@@ -12,10 +12,10 @@ function App() {
 
   return (
     <div>
-          <div>
-              {/* <Header/> */}
+          <div className="">
+              <Header/>
           </div>
-          <div className="mt-44 2xl:ml-64  mb-20">
+          <div className="mt-44 2xl:ml-64  mb-20 ">
               <Featured/>
           </div>
           <div className=" 2xl:ml-64  mb-20">
